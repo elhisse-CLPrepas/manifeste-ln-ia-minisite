@@ -1,5 +1,11 @@
 # Manifeste du Génie d’Orchestration · LN-IA
 
+## Édition visuelle V3 — 8 novembre 2026
+
+Les sept affiches utilisent un fond futuriste bleu nuit, cyan et or avec des schémas pédagogiques. Le portrait de l’auteur est retiré des affiches et conservé dans les espaces auteur du site. Chaque affiche propose le téléchargement de sa capsule bilingue. Le film `presentation-v3.mp4` assemble les sept capsules (97,2 secondes), avec les voix et les sous-titres de la V2.
+
+Le script `scripts/produire-v3.py` recompose les médias depuis le pack de production parent : affiches PNG dans `assets/images/`, pistes WAV et montage dans `video/version-amelioree/`, dépendances Python dans `video/outils/`. Ce script nécessite Pillow ; il n’est pas lancé par la compilation Vite ou GitHub Pages.
+
 Minisite Vite en français et en arabe : film de présentation, sept affiches avec descriptions et aperçu agrandi, méthode LN-IA et présentation de l’auteur M. Abderrahman EL HISSE.
 
 ## Développement

@@ -18,7 +18,7 @@ document.querySelector('#poster-gallery').innerHTML = posters.map(([title, ar, d
       <img src="${base}media/segment-${number}.webp" width="1086" height="1448" loading="lazy" decoding="async" alt="${title} — ${ar}" />
       <span class="enlarge-label">Voir l’affiche <span aria-hidden="true">↗</span></span>
     </button>
-    <div class="poster-copy"><span class="poster-number">${number} / 07</span><h3>${title}</h3><p class="poster-ar" lang="ar" dir="rtl">${ar}</p><p>${description}</p><p class="arabic-description" lang="ar" dir="rtl">${arDescription}</p></div>
+    <div class="poster-copy"><span class="poster-number">${number} / 07</span><h3>${title}</h3><p class="poster-ar" lang="ar" dir="rtl">${ar}</p><p>${description}</p><p class="arabic-description" lang="ar" dir="rtl">${arDescription}</p><a class="text-link" href="${base}media/capsule-${number}-v3.mp4" download>Télécharger la capsule ${number} · FR / العربية <span aria-hidden="true">↓</span></a></div>
   </article>`;
 }).join('');
 
